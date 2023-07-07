@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the package UniversityOfCopenhagen\UcphCeSlider.
+ * This file is part of the package UniversityOfCopenhagen\KuSwiper.
  *
  * For the full copyright and license information, please read the
  * LICENSE file that was distributed with this source code.
@@ -9,7 +9,7 @@
 
 defined('TYPO3') or die('Access denied.');
 
-call_user_func(function ($extKey ='ucph_ce_slider', $contentType ='ucph_ce_slider_content') {
+call_user_func(function ($extKey ='ku_swiper', $contentType ='ku_swiper_content') {
     // Add Content Element
     if (!is_array($GLOBALS['TCA']['tt_content']['types'][$contentType] ?? false)) {
         $GLOBALS['TCA']['tt_content']['types'][$contentType] = [];
@@ -17,8 +17,8 @@ call_user_func(function ($extKey ='ucph_ce_slider', $contentType ='ucph_ce_slide
 
     // Add content element PageTSConfig
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
-        'ucph_ce_slider',
-        'Configuration/TsConfig/Page/ucph_ce_slider.tsconfig',
+        'ku_swiper',
+        'Configuration/TsConfig/Page/ku_swiper.tsconfig',
         'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:swiper_content_title'
     );
 
@@ -30,7 +30,7 @@ call_user_func(function ($extKey ='ucph_ce_slider', $contentType ='ucph_ce_slide
             'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:swiper_content_title',
             $contentType,
             'ku-swiper-icon',
-            'ucph_ce_slider'
+            'ku_swiper'
         ]
     );
 

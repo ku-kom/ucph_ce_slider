@@ -56,7 +56,7 @@ The result is available in `Dist/` folders.
 
 ## Bugs and feature requests
 
-Have a bug or a feature request? If your problem or idea is not addressed yet, [please open a new issue](https://github.com/ku-kom/ucph_ce_slider/issues).
+Have a bug or a feature request? If your problem or idea is not addressed yet, [please open a new issue](https://github.com/ku-kom/ku_swiper/issues).
 
 ## License
 This project is released under the terms of the [MIT license](https://en.wikipedia.org/wiki/MIT_License).

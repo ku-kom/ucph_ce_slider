@@ -1,8 +1,8 @@
 ######################
 #### DEPENDENCIES ####
 ######################
-@import 'EXT:ucph_ce_slider/Configuration/TypoScript/Swiper_items/setup.typoscript'
-@import 'EXT:ucph_ce_slider/Configuration/TypoScript/Swiper_content/setup.typoscript'
+@import 'EXT:ku_swiper/Configuration/TypoScript/Swiper_items/setup.typoscript'
+@import 'EXT:ku_swiper/Configuration/TypoScript/Swiper_content/setup.typoscript'
 
 ##########################
 #### OPTION TO ADD CSS ###

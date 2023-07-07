@@ -2,25 +2,25 @@
 ####### CTYPE: KU SWIPERJS SLIDESHOW #########
 ##############################################
 
-tt_content.ucph_ce_slider >
-tt_content.ucph_ce_slider =< lib.contentElement
-tt_content.ucph_ce_slider {
+tt_content.ku_swiper >
+tt_content.ku_swiper =< lib.contentElement
+tt_content.ku_swiper {
 
     ################
     ### TEMPLATE ###
     ################
     templateName = SwiperWithItems
     templateRootPaths {
-        10 = EXT:ucph_ce_slider/Resources/Private/Templates/
+        10 = EXT:ku_swiper/Resources/Private/Templates/
         20 = {$swiper.templates.templateRootPath}
     }
 	partialRootPaths {
-		10 = EXT:ucph_ce_slider/Resources/Private/Partials/
+		10 = EXT:ku_swiper/Resources/Private/Partials/
         20 = {$swiper.templates.partialRootPath}
 	}
 
     layoutRootPaths {
-        10 = EXT:ucph_ce_slider/Resources/Private/Layouts/
+        10 = EXT:ku_swiper/Resources/Private/Layouts/
         20 = {$swiper.templates.layoutRootPath}
     }
 
@@ -31,7 +31,7 @@ tt_content.ucph_ce_slider {
         10 = TYPO3\CMS\Frontend\DataProcessing\FlexFormProcessor
         20 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
         20 {
-            table = tx_ucph_ce_slider_item
+            table = tx_ku_swiper_item
             pidInList.field = pid
             where {
                 data = field:uid
