@@ -1,0 +1,25 @@
+######################
+#### DEPENDENCIES ####
+######################
+@import 'EXT:ucph_ce_slider/Configuration/TypoScript/Swiper_items/setup.typoscript'
+@import 'EXT:ucph_ce_slider/Configuration/TypoScript/Swiper_content/setup.typoscript'
+
+##########################
+#### OPTION TO ADD CSS ###
+##########################
+lib.swiper.pagecss = TEXT
+lib.swiper.pagecss {
+    if.isTrue = {$swiper.assets.extraCss}
+    value = {$swiper.assets.extraCss}
+    htmlSanitize = 1
+}
+
+##########################
+#### OPTION TO ADD JS ####
+##########################
+lib.swiper.pagejs = TEXT
+lib.swiper.pagejs {
+    if.isTrue = {$swiper.assets.extraJs}
+    value = {$swiper.assets.extraJs}
+    htmlSanitize = 1
+}

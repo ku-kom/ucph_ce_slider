@@ -1,0 +1,37 @@
+TCEFORM {
+    tt_content {
+        # cType ucph_ce_slider:
+        background_image {
+            types {
+                ucph_ce_slider {
+                    disabled = 1
+                }
+            }
+        }
+
+        background_image_options {
+            types {
+                ucph_ce_slider {
+                    disabled = 1
+                }
+            }
+        }
+
+        # cType ucph_ce_slider_content:
+        background_image {
+            types {
+                ucph_ce_slider_content {
+                    disabled = 1
+                }
+            }
+        }
+
+        background_image_options {
+            types {
+                ucph_ce_slider_content {
+                    disabled = 1
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <basic>EXT:ucph_ce_slider/Configuration/Flexforms/flexform_basic_settings.xml</basic>
+		<smartphone>EXT:ucph_ce_slider/Configuration/Flexforms/flexform_smartphone.xml</smartphone>
+		<tablet>EXT:ucph_ce_slider/Configuration/Flexforms/flexform_tablet.xml</tablet>
+		<desktop>EXT:ucph_ce_slider/Configuration/Flexforms/flexform_desktop.xml</desktop>
+		<widescreen>EXT:ucph_ce_slider/Configuration/Flexforms/flexform_widescreen.xml</widescreen>
+    </sheets>
+</T3DataStructure>

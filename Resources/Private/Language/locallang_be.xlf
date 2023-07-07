@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf" date="2023-05-15UTC07:12:052" product-name="ucph_ce_slider">
+        <header>
+        </header>
+        <body>
+        <trans-unit id="swiper_title">
+            <source>KU slideshow with image and text</source>
+        </trans-unit>
+        <trans-unit id="swiper_desc">
+            <source>Add images and text to create a slideshow</source>
+        </trans-unit>
+        <trans-unit id="swiper_content_title">
+            <source>KU slideshow with content elements</source>
+        </trans-unit>
+        <trans-unit id="swiper_content_desc">
+            <source>Add existing content to create a slideshow</source>
+        </trans-unit>
+        <trans-unit id="swiper_item">
+            <source>Add slide</source>
+        </trans-unit>
+        <trans-unit id="swiper_item_below">
+            <source>Add slideshow item below</source>
+        </trans-unit>
+        <trans-unit id="swiper_records">
+            <source>Add content elements</source>
+        </trans-unit>
+        <trans-unit id="settings">
+            <source>Slideshow settings</source>
+        </trans-unit>
+        <trans-unit id="basic_settings">
+            <source>General settings</source>
+        </trans-unit>
+        <trans-unit id="smartphone_title">
+            <source>Mobile</source>
+        </trans-unit>
+        <trans-unit id="tablet_title">
+            <source>Tablet</source>
+        </trans-unit>
+        <trans-unit id="desktop_title">
+            <source>Desktop</source>
+        </trans-unit>
+        <trans-unit id="widescreen_title">
+            <source>Widescreen and up</source>
+        </trans-unit>
+        <trans-unit id="enabled">
+            <source>True</source>
+        </trans-unit>
+        <trans-unit id="disabled">
+            <source>False</source>
+        </trans-unit>
+        <trans-unit id="autoplay">
+            <source>Autoplay</source>
+        </trans-unit>
+        <trans-unit id="loop">
+            <source>Continue the slideshow from the beginning once it has reached the end</source>
+        </trans-unit>
+        <trans-unit id="arrows">
+            <source>Display arrows (navigation)</source>
+        </trans-unit>
+        <trans-unit id="dots">
+            <source>Display dots (pagination)</source>
+        </trans-unit>
+        <trans-unit id="fade">
+            <source>Fade between slides</source>
+        </trans-unit>
+         <trans-unit id="startSlide">
+            <source>Start slide</source>
+        </trans-unit>
+        <trans-unit id="randomStart">
+            <source>Random slide</source>
+        </trans-unit>
+        <trans-unit id="defaultStart">
+            <source>From the beginning</source>
+        </trans-unit>
+        <trans-unit id="centeredSlides">
+            <source>Center active slides</source>
+        </trans-unit>
+        <trans-unit id="slidesToShow">
+            <source>Number of slides to show at a time</source>
+        </trans-unit>
+        <trans-unit id="slidesToShow_desc">
+            <source>Hint: Can be a number with decimals, e.g. 1.3 for displaying partial slides</source>
+        </trans-unit>
+        <trans-unit id="slidesToScroll">
+            <source>Number of slides to scroll at a time</source>
+        </trans-unit>
+        <trans-unit id="slidespeed">
+            <source>Slide transition speed (miliseconds)</source>
+        </trans-unit>
+        <trans-unit id="thumbsgallery">
+            <source>Create thumbs galley</source>
+        </trans-unit>
+        <trans-unit id="slidelink">
+            <source>Slide link</source>
+        </trans-unit>
+        <trans-unit id="item_media">
+            <source>Select image</source>
+        </trans-unit>
+        <trans-unit id="slide_item">
+            <source>Slides</source>
+        </trans-unit>
+        <trans-unit id="slide_header">
+            <source>Slide caption header</source>
+        </trans-unit>
+        <trans-unit id="slide_bodytext">
+            <source>Slide caption text</source>
+        </trans-unit>
+        <trans-unit id="slideshowHeight">
+            <source>Slideshow height</source>
+        </trans-unit>
+        <trans-unit id="screenHeight">
+            <source>Full screen height</source>
+        </trans-unit>
+        <trans-unit id="default">
+            <source>Default</source>
+        </trans-unit>
+        <trans-unit id="sliderstyle">
+            <source>Slideshow style</source>
+        </trans-unit>
+        <trans-unit id="sliderstyle_values">
+            <source>Style: Business values</source>
+        </trans-unit>
+        <trans-unit id="alt_text_desc">
+            <source>Optional: Usually empty for images in slideshows</source>
+        </trans-unit>
+        </body>
+    </file>
+</xliff>

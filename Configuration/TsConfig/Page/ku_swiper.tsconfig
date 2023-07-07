@@ -1,0 +1,30 @@
+####################################
+#### NEW CONTENT ELEMENT WIZARD ####
+####################################
+mod.wizards.newContentElement.wizardItems.interactive {
+    elements {
+        ucph_ce_slider {
+            iconIdentifier = ku-swiper-icon
+            title = LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:swiper_title
+            description = LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:swiper_desc
+            tt_content_defValues {
+                CType = ucph_ce_slider
+            }
+        }
+    }
+    show := addToList(ucph_ce_slider)
+}
+
+mod.wizards.newContentElement.wizardItems.interactive {
+    elements {
+        ucph_ce_slider_content {
+            iconIdentifier = ku-swiper-icon
+            title = LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:swiper_content_title
+            description = LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:swiper_content_desc
+            tt_content_defValues {
+                CType = ucph_ce_slider_content
+            }
+        }
+    }
+    show := addToList(ucph_ce_slider_content)
+}
