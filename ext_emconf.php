@@ -8,7 +8,7 @@
  */
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'KU Swiper slideshow',
+    'title' => 'UCPH TYPO3 content element "Slider"',
     'description' => 'Contains two TYPO3 content elements - one for slides containing image and/or text, one for adding existing records.',
     'category' => 'plugin',
     'constraints' => [
@@ -28,5 +28,5 @@ $EM_CONF[$_EXTKEY] = [
     'author' => 'Nanna Ellegaard',
     'author_email' => 'nel@adm.ku.dk',
     'author_company' => 'University of Copenhagen',
-    'version' => '2.0.0',
+    'version' => '1.0.0',
 ];

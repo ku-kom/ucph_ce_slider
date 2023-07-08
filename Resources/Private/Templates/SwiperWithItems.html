@@ -119,11 +119,11 @@
         </div>
         <f:render partial="JavaScriptTranslations" arguments="{_all}" />
     </f:if>
-    <f:if condition="{lib.swiper.pagecss !== ''}">
-        <f:asset.css identifier="swiperCSS" href="{f:cObject(typoscriptObjectPath: 'lib.swiper.pagecss')}" />
+    <f:if condition="{lib.slider.pagecss !== ''}">
+        <f:asset.css identifier="sliderCSS" href="{f:cObject(typoscriptObjectPath: 'lib.slider.pagecss')}" />
     </f:if>
-    <f:if condition="{lib.swiper.pagejs !== ''}">
-        <f:asset.script identifier="swiperJs" src="{f:cObject(typoscriptObjectPath: 'lib.swiper.pagejs')}" />
+    <f:if condition="{lib.slider.pagejs !== ''}">
+        <f:asset.script identifier="sliderJs" src="{f:cObject(typoscriptObjectPath: 'lib.slider.pagejs')}" />
     </f:if>
 </f:section>
 

@@ -7,19 +7,19 @@
 ##########################
 #### OPTION TO ADD CSS ###
 ##########################
-lib.swiper.pagecss = TEXT
-lib.swiper.pagecss {
-    if.isTrue = {$swiper.assets.extraCss}
-    value = {$swiper.assets.extraCss}
+lib.slider.pagecss = TEXT
+lib.slider.pagecss {
+    if.isTrue = {$slider.assets.extraCss}
+    value = {$slider.assets.extraCss}
     htmlSanitize = 1
 }
 
 ##########################
 #### OPTION TO ADD JS ####
 ##########################
-lib.swiper.pagejs = TEXT
-lib.swiper.pagejs {
-    if.isTrue = {$swiper.assets.extraJs}
-    value = {$swiper.assets.extraJs}
+lib.slider.pagejs = TEXT
+lib.slider.pagejs {
+    if.isTrue = {$slider.assets.extraJs}
+    value = {$slider.assets.extraJs}
     htmlSanitize = 1
 }
