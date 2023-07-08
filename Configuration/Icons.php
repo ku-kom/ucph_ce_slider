@@ -17,6 +17,6 @@ return [
     // icon identifier
     'ucph-ce-slider-icon' => [
         'provider' => \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-        'source' => 'EXT:ku_swiper/Resources/Public/Icons/slider.svg',
+        'source' => 'EXT:ucph_ce_slider/Resources/Public/Icons/slider.svg',
     ],
 ];

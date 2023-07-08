@@ -11,16 +11,16 @@ tt_content.ucph_ce_slider {
     ################
     templateName = SliderWithItems
     templateRootPaths {
-        10 = EXT:ku_swiper/Resources/Private/Templates/
+        10 = EXT:ucph_ce_slider/Resources/Private/Templates/
         20 = {$slider.templates.templateRootPath}
     }
 	partialRootPaths {
-		10 = EXT:ku_swiper/Resources/Private/Partials/
+		10 = EXT:ucph_ce_slider/Resources/Private/Partials/
         20 = {$slider.templates.partialRootPath}
 	}
 
     layoutRootPaths {
-        10 = EXT:ku_swiper/Resources/Private/Layouts/
+        10 = EXT:ucph_ce_slider/Resources/Private/Layouts/
         20 = {$slider.templates.layoutRootPath}
     }
 

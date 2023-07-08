@@ -12,7 +12,7 @@
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "ku_swiper"
+            "extension-key": "ucph_ce_slider"
         }
     }
 }

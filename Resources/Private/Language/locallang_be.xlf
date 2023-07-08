@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-    <file source-language="en" datatype="plaintext" original="EXT:ku_swiper/Resources/Private/Language/locallang_be.xlf" date="2023-05-15UTC07:12:052" product-name="ku_swiper">
+    <file source-language="en" datatype="plaintext" original="EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf" date="2023-05-15UTC07:12:052" product-name="ku_swiper">
         <header>
         </header>
         <body>
         <trans-unit id="swiper_title">
-            <source>KU slideshow with image and text</source>
+            <source>Slideshow with image and text</source>
         </trans-unit>
         <trans-unit id="swiper_desc">
             <source>Add images and text to create a slideshow</source>
         </trans-unit>
         <trans-unit id="swiper_content_title">
-            <source>KU slideshow with content elements</source>
+            <source>Slideshow with content elements</source>
         </trans-unit>
         <trans-unit id="swiper_content_desc">
             <source>Add existing content to create a slideshow</source>

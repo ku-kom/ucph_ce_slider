@@ -9,7 +9,7 @@
 
 defined('TYPO3') or die('Access denied.');
 
-call_user_func(function ($extKey ='ku_swiper', $contentType ='ucph_ce_slider_content') {
+call_user_func(function ($extKey ='ucph_ce_slider', $contentType ='ucph_ce_slider_content') {
     // Add Content Element
     if (!is_array($GLOBALS['TCA']['tt_content']['types'][$contentType] ?? false)) {
         $GLOBALS['TCA']['tt_content']['types'][$contentType] = [];
