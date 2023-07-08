@@ -1,5 +1,5 @@
 {
-    "name": "university-of-copenhagen/ucph-ce-slider",
+    "name": "university-of-copenhagen/ucph_ce-slider",
     "type": "typo3-cms-extension",
     "description": "Contains two TYPO3 content elements - one for slides containing image and/or text, one for adding existing records.",
     "homepage": "https://www.ku.dk/",
@@ -12,7 +12,7 @@
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "ucph_ce_slider"
+            "extension-key": "ku_swiper"
         }
     }
 }

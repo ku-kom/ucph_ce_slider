@@ -1,9 +1,9 @@
 TCEFORM {
     tt_content {
-        # cType ucph_ce_slider:
+        # cType ku_swiper:
         background_image {
             types {
-                ucph_ce_slider {
+                ku_swiper {
                     disabled = 1
                 }
             }
@@ -11,16 +11,16 @@ TCEFORM {
 
         background_image_options {
             types {
-                ucph_ce_slider {
+                ku_swiper {
                     disabled = 1
                 }
             }
         }
 
-        # cType ucph_ce_slider_content:
+        # cType ku_swiper_content:
         background_image {
             types {
-                ucph_ce_slider_content {
+                ku_swiper_content {
                     disabled = 1
                 }
             }
@@ -28,7 +28,7 @@ TCEFORM {
 
         background_image_options {
             types {
-                ucph_ce_slider_content {
+                ku_swiper_content {
                     disabled = 1
                 }
             }

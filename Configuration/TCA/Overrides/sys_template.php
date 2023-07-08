@@ -6,14 +6,14 @@ call_user_func(function () {
     /**
      * Temporary variables
      */
-    $extensionKey = 'ucph_ce_slider';
+    $extensionKey = 'ku_swiper';
 
     /**
-     * Default TypoScript for ucph_ce_slider
+     * Default TypoScript for ku_swiper
      */
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
         $extensionKey,
         'Configuration/TypoScript',
-        'UCPH TYPO3 Slider'
+        'UCPH TYPO3 content element "Slider"'
     );
 });

@@ -1,0 +1,51 @@
+##############################################
+####### CTYPE: KU SWIPERJS SLIDESHOW #########
+##############################################
+
+tt_content.ucph_ce_slider >
+tt_content.ucph_ce_slider =< lib.contentElement
+tt_content.ucph_ce_slider {
+
+    ################
+    ### TEMPLATE ###
+    ################
+    templateName = SliderWithItems
+    templateRootPaths {
+        10 = EXT:ku_swiper/Resources/Private/Templates/
+        20 = {$slider.templates.templateRootPath}
+    }
+	partialRootPaths {
+		10 = EXT:ku_swiper/Resources/Private/Partials/
+        20 = {$slider.templates.partialRootPath}
+	}
+
+    layoutRootPaths {
+        10 = EXT:ku_swiper/Resources/Private/Layouts/
+        20 = {$slider.templates.layoutRootPath}
+    }
+
+    ##########################
+    ### DATA PREPROCESSING ###
+    ##########################
+    dataProcessing {
+        10 = TYPO3\CMS\Frontend\DataProcessing\FlexFormProcessor
+        20 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
+        20 {
+            table = tx_ku_swiper_item
+            pidInList.field = pid
+            where {
+                data = field:uid
+                intval = 1
+                wrap = tt_content=|
+            }
+            orderBy = sorting
+            dataProcessing {
+                10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+                10 {
+                    references.fieldName = image
+                }
+            }
+        }
+    }
+
+}

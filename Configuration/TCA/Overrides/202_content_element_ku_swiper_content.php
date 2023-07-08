@@ -9,7 +9,7 @@
 
 defined('TYPO3') or die('Access denied.');
 
-call_user_func(function ($extKey ='ucph_ce_slider', $contentType ='ucph_ce_slider_content') {
+call_user_func(function ($extKey ='ku_swiper', $contentType ='ucph_ce_slider_content') {
     // Add Content Element
     if (!is_array($GLOBALS['TCA']['tt_content']['types'][$contentType] ?? false)) {
         $GLOBALS['TCA']['tt_content']['types'][$contentType] = [];
@@ -17,7 +17,7 @@ call_user_func(function ($extKey ='ucph_ce_slider', $contentType ='ucph_ce_slide
 
     // Add content element PageTSConfig
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
-        'ucph_ce_slider',
+        'ku_swiper',
         'Configuration/TsConfig/Page/ucph_ce_slider.tsconfig',
         'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:swiper_content_title'
     );
@@ -30,7 +30,7 @@ call_user_func(function ($extKey ='ucph_ce_slider', $contentType ='ucph_ce_slide
             'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:swiper_content_title',
             $contentType,
             'ucph-ce-slider-icon',
-            'ucph_ce_slider'
+            'ku_swiper'
         ]
     );
 

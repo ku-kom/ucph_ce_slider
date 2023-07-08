@@ -1,16 +1,16 @@
 slider {
     templates {
-        # cat=UCPH CE Slider/file; type=string; label=Layout Root Path: Path to templates (with a trailing slash).
-        templateRootPath = EXT:ucph_ce_slider/Resources/Private/Templates/
-        # cat=UCPH CE Slider/file; type=string; label=Partial Root Path: Path to partials (with a trailing slash).
-        partialRootPath = EXT:ucph_ce_slider/Resources/Private/Partials/
-        # cat=UCPH CE Slider/file; type=string; label=Layout Root Path: Path to templates (with a trailing slash).
-        layoutRootPath = EXT:ucph_ce_slider/Resources/Private/Layouts/
+        # cat=UCPH TYPO3 content element slider/file; type=string; label=Layout Root Path: Path to templates (with a trailing slash).
+        templateRootPath = EXT:ku_swiper/Resources/Private/Templates/
+        # cat=UCPH TYPO3 content element slider/file; type=string; label=Partial Root Path: Path to partials (with a trailing slash).
+        partialRootPath = EXT:ku_swiper/Resources/Private/Partials/
+        # cat=UCPH TYPO3 content element slider/file; type=string; label=Layout Root Path: Path to templates (with a trailing slash).
+        layoutRootPath = EXT:ku_swiper/Resources/Private/Layouts/
     }
     assets {
-        # cat=UCPH CE Slider/Assets/; type=string; label=CSS assets: Path to stylesheet.
-        extraCss = EXT:ucph_ce_slider/Resources/Public/Css/Dist/swiper-bundle.min.css
-        # cat=UCPH CE Slider/Assets/; type=string; label=JavaScript assets: Path to javaScript file.
-        extraJs = EXT:ucph_ce_slider/Resources/Public/JavaScript/Dist/swiper-bundle.min.js
+        # cat=UCPH TYPO3 content element slider/Assets/; type=string; label=CSS assets: Path to stylesheet.
+        extraCss = EXT:ku_swiper/Resources/Public/Css/Dist/swiper-bundle.min.css
+        # cat=UCPH TYPO3 content element slider/Assets/; type=string; label=JavaScript assets: Path to javaScript file.
+        extraJs = EXT:ku_swiper/Resources/Public/JavaScript/Dist/swiper-bundle.min.js
     }
 }
