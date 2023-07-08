@@ -4,13 +4,13 @@
         <header>
         </header>
         <body>
-        <trans-unit id="swiper_title">
+        <trans-unit id="slider_title">
             <source>Slideshow with image and text</source>
         </trans-unit>
         <trans-unit id="swiper_desc">
             <source>Add images and text to create a slideshow</source>
         </trans-unit>
-        <trans-unit id="swiper_content_title">
+        <trans-unit id="slider_content_title">
             <source>Slideshow with content elements</source>
         </trans-unit>
         <trans-unit id="swiper_content_desc">

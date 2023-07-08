@@ -19,7 +19,7 @@ call_user_func(function ($extKey ='ucph_ce_slider', $contentType ='ucph_ce_slide
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
         'ku_swiper',
         'Configuration/TsConfig/Page/ucph_ce_slider.tsconfig',
-        'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:swiper_content_title'
+        'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:slider_content_title'
     );
 
     // Add content element to selector list
@@ -27,7 +27,7 @@ call_user_func(function ($extKey ='ucph_ce_slider', $contentType ='ucph_ce_slide
         'tt_content',
         'CType',
         [
-            'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:swiper_content_title',
+            'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:slider_content_title',
             $contentType,
             'ucph-ce-slider-icon',
             'ku_swiper'

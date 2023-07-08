@@ -15,7 +15,7 @@ return [
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'cruser_id' => 'cruser_id',
-        'title' => 'LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:swiper_item',
+        'title' => 'LLL:EXT:ku_swiper/Resources/Private/Language/locallang_be.xlf:swiper_item',
         'delete' => 'deleted',
         'versioningWS' => true,
         'origUid' => 't3_origuid',
@@ -66,7 +66,7 @@ return [
         ],
         'visibility' => [
             'showitem' => '
-                hidden;LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:slide_item
+                hidden;LLL:EXT:ku_swiper/Resources/Private/Language/locallang_be.xlf:slide_item
             '
         ],
         // hidden but needs to be included all the time, so sys_language_uid is set correctly
@@ -78,7 +78,7 @@ return [
     'columns' => [
         'tt_content' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:ku_swiper_item.tt_content',
+            'label' => 'LLL:EXT:ku_swiper/Resources/Private/Language/locallang_be.xlf:ku_swiper_item.tt_content',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
@@ -156,7 +156,7 @@ return [
         ],
         'header' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:slide_header',
+            'label' => 'LLL:EXT:ku_swiper/Resources/Private/Language/locallang_be.xlf:slide_header',
             'config' => [
                 'type' => 'input',
                 'size' => 50,
@@ -165,7 +165,7 @@ return [
             ],
         ],
         'bodytext' => [
-            'label' => 'LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:slide_bodytext',
+            'label' => 'LLL:EXT:ku_swiper/Resources/Private/Language/locallang_be.xlf:slide_bodytext',
             'l10n_mode' => 'prefixLangTitle',
             'l10n_cat' => 'text',
             'config' => [
@@ -178,7 +178,7 @@ return [
             ],
         ],
         'slidelink' => [
-            'label' => 'LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:slidelink',
+            'label' => 'LLL:EXT:ku_swiper/Resources/Private/Language/locallang_be.xlf:slidelink',
             'config' => [
                 'type' => 'input',
                 'renderType' => 'inputLink',
@@ -189,7 +189,7 @@ return [
         ],
         'image' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:item_media',
+            'label' => 'LLL:EXT:ku_swiper/Resources/Private/Language/locallang_be.xlf:item_media',
             'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
                 'image',
                 [
@@ -215,7 +215,7 @@ return [
                                 ]
                             ],
                             'alternative' => [
-                                'description' => 'LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:alt_text_desc'
+                                'description' => 'LLL:EXT:ku_swiper/Resources/Private/Language/locallang_be.xlf:alt_text_desc'
                             ]
                         ],
                         'types' => [
