@@ -6,10 +6,10 @@ call_user_func(function () {
     /**
      * Temporary variables
      */
-    $extensionKey = 'ku_swiper';
+    $extensionKey = 'ucph_ce_slider';
 
     /**
-     * Default TypoScript for ku_swiper
+     * Default TypoScript for ucph_ce_slider
      */
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
         $extensionKey,

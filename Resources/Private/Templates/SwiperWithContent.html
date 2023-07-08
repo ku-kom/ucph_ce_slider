@@ -4,8 +4,8 @@
     <f:flashMessages />
     <f:comment>
         <!-- Render pages -->
-        <f:if condition="{lib.tx_ku_swiper_pages !== ''}">
-            <f:cObject typoscriptObjectPath="lib.tx_ku_swiper_pages" data="{data}" />
+        <f:if condition="{lib.tx_ucph_ce_slider_pages !== ''}">
+            <f:cObject typoscriptObjectPath="lib.tx_ucph_ce_slider_pages" data="{data}" />
         </f:if>
     </f:comment>
     <f:if condition="{records}">
@@ -109,7 +109,7 @@
             <div class="{swiper}-prev swiper-button-prev"></div>
             <div class="{swiper}-dots swiper-pagination"></div>
             <f:if condition="{flexFormData.autoplay} === '1' && {totalcount} > 1">
-                <button aria-label="{f:translate(key: 'pause', extensionName: 'ku_swiper')}" class="btn play-pause-button" type="button"><span class="bi bi-pause-fill" aria-hidden="true"></span></button>
+                <button aria-label="{f:translate(key: 'pause', extensionName: 'ucph_ce_slider')}" class="btn play-pause-button" type="button"><span class="bi bi-pause-fill" aria-hidden="true"></span></button>
             </f:if>
         </div>
         <f:render partial="JavaScriptTranslations" arguments="{_all}" />

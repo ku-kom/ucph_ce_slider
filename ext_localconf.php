@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the package ku_swiper.
+ * This file is part of the package ucph_ce_slider.
  * For the full copyright and license information, please read the
  * LICENSE file that was distributed with this source code.
  * May 2023 Nanna Ellegaard, University of Copenhagen.
@@ -19,6 +19,6 @@ $typo3VersionNumber = VersionNumberUtility::convertVersionNumberToInteger(
 // Only include page.tsconfig if TYPO3 version is below 12 so that it is not imported twice.
 if ($typo3VersionNumber < 12000000) {
     ExtensionManagementUtility::addPageTSConfig('
-      @import "EXT:ku_swiper/Configuration/page.tsconfig"
+      @import "EXT:ucph_ce_slider/Configuration/page.tsconfig"
    ');
 }

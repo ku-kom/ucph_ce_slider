@@ -2,25 +2,25 @@
 ####### CTYPE: KU SWIPERJS SLIDESHOW #########
 ##############################################
 
-tt_content.ku_swiper >
-tt_content.ku_swiper =< lib.contentElement
-tt_content.ku_swiper {
+tt_content.ucph_ce_slider_content >
+tt_content.ucph_ce_slider_content =< lib.contentElement
+tt_content.ucph_ce_slider_content {
 
     ################
     ### TEMPLATE ###
     ################
-    templateName = SwiperWithItems
+    templateName = SwiperWithContent
     templateRootPaths {
-        10 = EXT:ku_swiper/Resources/Private/Templates/
+        10 = EXT:ucph_ce_slider/Resources/Private/Templates/
         20 = {$swiper.templates.templateRootPath}
     }
 	partialRootPaths {
-		10 = EXT:ku_swiper/Resources/Private/Partials/
+		10 = EXT:ucph_ce_slider/Resources/Private/Partials/
         20 = {$swiper.templates.partialRootPath}
 	}
 
     layoutRootPaths {
-        10 = EXT:ku_swiper/Resources/Private/Layouts/
+        10 = EXT:ucph_ce_slider/Resources/Private/Layouts/
         20 = {$swiper.templates.layoutRootPath}
     }
 
@@ -31,21 +31,20 @@ tt_content.ku_swiper {
         10 = TYPO3\CMS\Frontend\DataProcessing\FlexFormProcessor
         20 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
         20 {
-            table = tx_ku_swiper_item
-            pidInList.field = pid
-            where {
-                data = field:uid
-                intval = 1
-                wrap = tt_content=|
-            }
+            if.isTrue.field = records
+            table = tt_content
+            uidInList.field = records
+            pidInList = 0
             orderBy = sorting
-            dataProcessing {
-                10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
-                10 {
-                    references.fieldName = image
-                }
-            }
+            as = records
         }
     }
 
+    # variables {
+    #     shortcuts = RECORDS
+    #     shortcuts {
+    #         source.field = records
+    #         tables = tt_content
+    #     }
+    # }
 }

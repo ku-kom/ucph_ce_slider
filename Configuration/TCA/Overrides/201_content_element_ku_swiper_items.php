@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the package UniversityOfCopenhagen\KuSwiper.
+ * This file is part of the package UniversityOfCopenhagen\UcphCeSlider.
  *
  * For the full copyright and license information, please read the
  * LICENSE file that was distributed with this source code.
@@ -9,7 +9,7 @@
 
 defined('TYPO3') or die('Access denied.');
 
-call_user_func(function ($extKey ='ku_swiper', $contentType ='ku_swiper') {
+call_user_func(function ($extKey ='ucph_ce_slider', $contentType ='ucph_ce_slider') {
     // Add Content Element
     if (!is_array($GLOBALS['TCA']['tt_content']['types'][$contentType] ?? false)) {
         $GLOBALS['TCA']['tt_content']['types'][$contentType] = [];
@@ -17,8 +17,8 @@ call_user_func(function ($extKey ='ku_swiper', $contentType ='ku_swiper') {
 
     // Add content element PageTSConfig
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
-        'ku_swiper',
-        'Configuration/TsConfig/Page/ku_swiper.tsconfig',
+        'ucph_ce_slider',
+        'Configuration/TsConfig/Page/ucph_ce_slider.tsconfig',
         'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:swiper_title'
     );
 
@@ -29,13 +29,13 @@ call_user_func(function ($extKey ='ku_swiper', $contentType ='ku_swiper') {
         [
             'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:swiper_title',
             $contentType,
-            'ku-swiper-icon',
+            'ucph-ce-slider-icon',
             $extKey
         ]
     );
 
     // Assign Icon
-    $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes'][$contentType] = 'ku-swiper-icon';
+    $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes'][$contentType] = 'ucph-ce-slider-icon';
 
     // Configure element type
     $GLOBALS['TCA']['tt_content']['types'][$contentType] = array_replace_recursive(
@@ -45,7 +45,7 @@ call_user_func(function ($extKey ='ku_swiper', $contentType ='ku_swiper') {
                 --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
                     --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,
                     --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.headers;headers,
-                    tx_ku_swiper_item,
+                    tx_ucph_ce_slider_item,
                 --div--;LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:settings,
                     pi_flexform;LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:settings,
                 --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
@@ -69,13 +69,13 @@ call_user_func(function ($extKey ='ku_swiper', $contentType ='ku_swiper') {
     $GLOBALS['TCA']['tt_content']['columns'] = array_replace_recursive(
         $GLOBALS['TCA']['tt_content']['columns'],
         [
-            'tx_ku_swiper_item' => [
+            'tx_ucph_ce_slider_item' => [
                 'exclude' => 1,
                 'label' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:swiper_item_below',
                 'config' => [
                     'type' => 'inline',
                     'minitems' => 1,
-                    'foreign_table' => 'tx_ku_swiper_item',
+                    'foreign_table' => 'tx_ucph_ce_slider_item',
                     'foreign_field' => 'tt_content',
                     'appearance' => [
                         'newRecordLinkTitle' => 'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:swiper_item',
