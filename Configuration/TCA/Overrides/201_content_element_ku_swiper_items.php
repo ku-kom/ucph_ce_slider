@@ -17,7 +17,7 @@ call_user_func(function ($extKey ='ucph_ce_slider', $contentType ='ucph_ce_slide
 
     // Add content element PageTSConfig
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
-        'ku_swiper',
+        $extKey,
         'Configuration/TsConfig/Page/ucph_ce_slider.tsconfig',
         'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:slider_title'
     );
