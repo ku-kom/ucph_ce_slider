@@ -2,9 +2,9 @@
 
 /*
  * This file is part of the package ucph_ce_slider.
- *
  * For the full copyright and license information, please read the
  * LICENSE file that was distributed with this source code.
+ * University of Copenhagen.
  */
 
 return [
@@ -144,8 +144,8 @@ return [
                         0
                     ]
                 ],
-                'foreign_table' => 'tx_ku_swiper_item',
-                'foreign_table_where' => 'AND tx_ku_swiper_item.pid=###CURRENT_PID### AND tx_ku_swiper_item.sys_language_uid IN (-1,0)',
+                'foreign_table' => 'tx_ucph_slider_item',
+                'foreign_table_where' => 'AND tx_ucph_slider_item.pid=###CURRENT_PID### AND tx_ucph_slider_item.sys_language_uid IN (-1,0)',
                 'default' => 0
             ]
         ],

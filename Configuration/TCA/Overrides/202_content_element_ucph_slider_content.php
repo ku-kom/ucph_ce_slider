@@ -1,10 +1,10 @@
 <?php
 
 /*
- * This file is part of the package UniversityOfCopenhagen\UcphCeSlider.
- *
+ * This file is part of the package ucph_ce_slider.
  * For the full copyright and license information, please read the
  * LICENSE file that was distributed with this source code.
+ * University of Copenhagen.
  */
 
 defined('TYPO3') or die('Access denied.');
