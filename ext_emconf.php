@@ -8,7 +8,7 @@
  */
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'UCPH TYPO3 content element slider',
+    'title' => 'UCPH TYPO3 content element "Slider"',
     'description' => 'Contains two TYPO3 content elements - one for slides containing image and/or text, one for adding existing records.',
     'category' => 'templates',
     'constraints' => [
