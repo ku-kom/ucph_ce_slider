@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the package ucph_ce_slider.
+ * This file is part of the package ucph_content_slider.
  * For the full copyright and license information, please read the
  * LICENSE file that was distributed with this source code.
  * University of Copenhagen.
@@ -9,7 +9,7 @@
 
 defined('TYPO3') or die('Access denied.');
 
-call_user_func(function ($extKey ='ucph_ce_slider', $contentType ='ucph_ce_slider_content') {
+call_user_func(function ($extKey ='ucph_content_slider', $contentType ='ucph_content_slider_content') {
     // Add Content Element
     if (!is_array($GLOBALS['TCA']['tt_content']['types'][$contentType] ?? false)) {
         $GLOBALS['TCA']['tt_content']['types'][$contentType] = [];
@@ -18,7 +18,7 @@ call_user_func(function ($extKey ='ucph_ce_slider', $contentType ='ucph_ce_slide
     // Add content element PageTSConfig
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
         $extKey,
-        'Configuration/TsConfig/Page/ucph_ce_slider.tsconfig',
+        'Configuration/TsConfig/Page/ucph_content_slider.tsconfig',
         'LLL:EXT:' . $extKey . '/Resources/Private/Language/locallang_be.xlf:slider_content_title'
     );
 

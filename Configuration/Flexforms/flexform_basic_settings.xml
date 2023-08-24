@@ -2,13 +2,13 @@
 <T3DataStructure>
 	<ROOT>
 		<TCEforms>
-			<sheetTitle>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:basic_settings</sheetTitle>
+			<sheetTitle>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:basic_settings</sheetTitle>
 		</TCEforms>
 		<type>array</type>
         <el>
             <autoplay>
                 <TCEforms>
-                    <label>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:autoplay
+                    <label>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:autoplay
                     </label>
                     <exclude>1</exclude>
                     <config>
@@ -17,8 +17,8 @@
                         <items type="array">
                             <numIndex index="0" type="array">
                                 <numIndex index="0"></numIndex>
-                                <labelChecked>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:enabled</labelChecked>
-                                <labelUnchecked>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:disabled</labelUnchecked>
+                                <labelChecked>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:enabled</labelChecked>
+                                <labelUnchecked>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:disabled</labelUnchecked>
                             </numIndex>
                         </items>
                         <default>1</default>
@@ -27,7 +27,7 @@
             </autoplay>
             <loop>
                 <TCEforms>
-                    <label>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:loop
+                    <label>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:loop
                     </label>
                     <exclude>1</exclude>
                     <config>
@@ -36,8 +36,8 @@
                         <items type="array">
                             <numIndex index="0" type="array">
                                 <numIndex index="0"></numIndex>
-                                <labelChecked>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:enabled</labelChecked>
-                                <labelUnchecked>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:disabled</labelUnchecked>
+                                <labelChecked>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:enabled</labelChecked>
+                                <labelUnchecked>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:disabled</labelUnchecked>
                             </numIndex>
                         </items>
                         <default>1</default>
@@ -46,7 +46,7 @@
             </loop>
             <slideSpeed>
                 <TCEforms>
-                    <label>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:slidespeed
+                    <label>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:slidespeed
                     </label>
                     <exclude>1</exclude>
                     <config type="array">
@@ -63,7 +63,7 @@
             </slideSpeed>
             <startSlide>
                 <TCEforms>
-                    <label>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:startSlide
+                    <label>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:startSlide
                     </label>
                     <exclude>1</exclude>
                     <config type="array">
@@ -72,13 +72,13 @@
                         <items>
                             <numIndex index="0">
                                 <numIndex index="0">
-                                    LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:defaultStart
+                                    LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:defaultStart
                                 </numIndex>
                                 <numIndex index="1">0</numIndex>
                             </numIndex>
                             <numIndex index="1">
                                 <numIndex index="0">
-                                    LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:randomStart
+                                    LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:randomStart
                                 </numIndex>
                                 <numIndex index="1">1</numIndex>
                             </numIndex>
@@ -89,7 +89,7 @@
             </startSlide>
             <fade>
                 <TCEforms>
-                    <label>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:fade
+                    <label>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:fade
                     </label>
                     <exclude>1</exclude>
                     <config>
@@ -98,8 +98,8 @@
                         <items type="array">
                             <numIndex index="0" type="array">
                                 <numIndex index="0"></numIndex>
-                                <labelChecked>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:enabled</labelChecked>
-                                <labelUnchecked>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:disabled</labelUnchecked>
+                                <labelChecked>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:enabled</labelChecked>
+                                <labelUnchecked>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:disabled</labelUnchecked>
                             </numIndex>
                         </items>
                         <default>0</default>
@@ -108,7 +108,7 @@
             </fade>
             <centeredSlides>
                 <TCEforms>
-                    <label>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:centeredSlides
+                    <label>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:centeredSlides
                     </label>
                     <exclude>1</exclude>
                     <config>
@@ -117,8 +117,8 @@
                         <items type="array">
                             <numIndex index="0" type="array">
                                 <numIndex index="0"></numIndex>
-                                <labelChecked>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:enabled</labelChecked>
-                                <labelUnchecked>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:disabled</labelUnchecked>
+                                <labelChecked>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:enabled</labelChecked>
+                                <labelUnchecked>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:disabled</labelUnchecked>
                             </numIndex>
                         </items>
                         <default>0</default>
@@ -127,7 +127,7 @@
             </centeredSlides>
             <slideshowHeight>
                 <TCEforms>
-                    <label>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:slideshowHeight
+                    <label>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:slideshowHeight
                     </label>
                     <exclude>1</exclude>
                     <config type="array">
@@ -142,7 +142,7 @@
                             </numIndex>
                             <numIndex index="1">
                                 <numIndex index="0">
-                                    LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:default
+                                    LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:default
                                 </numIndex>
                                 <numIndex index="1"></numIndex>
                             </numIndex>
@@ -160,7 +160,7 @@
                             </numIndex>
                             <numIndex index="4">
                                 <numIndex index="0">
-                                    LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:screenHeight
+                                    LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:screenHeight
                                 </numIndex>
                                 <numIndex index="1">height-full</numIndex>
                             </numIndex>
@@ -171,7 +171,7 @@
             </slideshowHeight>
             <sliderStyle>
                 <TCEforms>
-                    <label>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:sliderstyle
+                    <label>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:sliderstyle
                     </label>
                     <exclude>1</exclude>
                     <config type="array">
@@ -180,13 +180,13 @@
                         <items>
                             <numIndex index="0">
                                 <numIndex index="0">
-                                    LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:default
+                                    LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:default
                                 </numIndex>
                                 <numIndex index="1"></numIndex>
                             </numIndex>
                             <numIndex index="1">
                                 <numIndex index="0">
-                                    LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:sliderstyle_values
+                                    LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:sliderstyle_values
                                 </numIndex>
                                 <numIndex index="1">style-ku-values</numIndex>
                             </numIndex>
@@ -197,7 +197,7 @@
             </sliderStyle>
             <thumbsgallery>
                 <TCEforms>
-                    <label>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:thumbsgallery
+                    <label>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:thumbsgallery
                     </label>
                     <exclude>1</exclude>
                     <config>
@@ -206,8 +206,8 @@
                         <items type="array">
                             <numIndex index="0" type="array">
                                 <numIndex index="0"></numIndex>
-                                <labelChecked>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:enabled</labelChecked>
-                                <labelUnchecked>LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:disabled</labelUnchecked>
+                                <labelChecked>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:enabled</labelChecked>
+                                <labelUnchecked>LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:disabled</labelUnchecked>
                             </numIndex>
                         </items>
                         <default>0</default>

@@ -2,25 +2,25 @@
 ####### CTYPE: KU SWIPERJS SLIDESHOW #########
 ##############################################
 
-tt_content.ucph_ce_slider_content >
-tt_content.ucph_ce_slider_content =< lib.contentElement
-tt_content.ucph_ce_slider_content {
+tt_content.ucph_content_slider_content >
+tt_content.ucph_content_slider_content =< lib.contentElement
+tt_content.ucph_content_slider_content {
 
     ################
     ### TEMPLATE ###
     ################
     templateName = SliderWithContent
     templateRootPaths {
-        10 = EXT:ucph_ce_slider/Resources/Private/Templates/
+        10 = EXT:ucph_content_slider/Resources/Private/Templates/
         20 = {$slider.templates.templateRootPath}
     }
 	partialRootPaths {
-		10 = EXT:ucph_ce_slider/Resources/Private/Partials/
+		10 = EXT:ucph_content_slider/Resources/Private/Partials/
         20 = {$slider.templates.partialRootPath}
 	}
 
     layoutRootPaths {
-        10 = EXT:ucph_ce_slider/Resources/Private/Layouts/
+        10 = EXT:ucph_content_slider/Resources/Private/Layouts/
         20 = {$slider.templates.layoutRootPath}
     }
 

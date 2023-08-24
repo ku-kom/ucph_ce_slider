@@ -19,6 +19,6 @@ $typo3VersionNumber = VersionNumberUtility::convertVersionNumberToInteger(
 // Only include page.tsconfig if TYPO3 version is below 12 so that it is not imported twice.
 if ($typo3VersionNumber < 12000000) {
     ExtensionManagementUtility::addPageTSConfig('
-      @import "EXT:ucph_ce_slider/Configuration/page.tsconfig"
+      @import "EXT:ucph_content_slider/Configuration/page.tsconfig"
    ');
 }

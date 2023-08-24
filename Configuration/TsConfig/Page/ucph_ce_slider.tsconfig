@@ -3,28 +3,28 @@
 ####################################
 mod.wizards.newContentElement.wizardItems.interactive {
     elements {
-        ucph_ce_slider {
+        ucph_content_slider {
             iconIdentifier = ucph-ce-slider-icon
-            title = LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:slider_title
-            description = LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:swiper_desc
+            title = LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:slider_title
+            description = LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:swiper_desc
             tt_content_defValues {
-                CType = ucph_ce_slider
+                CType = ucph_content_slider
             }
         }
     }
-    show := addToList(ucph_ce_slider)
+    show := addToList(ucph_content_slider)
 }
 
 mod.wizards.newContentElement.wizardItems.interactive {
     elements {
-        ucph_ce_slider_content {
+        ucph_content_slider_content {
             iconIdentifier = ucph-ce-slider-icon
-            title = LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:slider_content_title
-            description = LLL:EXT:ucph_ce_slider/Resources/Private/Language/locallang_be.xlf:swiper_content_desc
+            title = LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:slider_content_title
+            description = LLL:EXT:ucph_content_slider/Resources/Private/Language/locallang_be.xlf:swiper_content_desc
             tt_content_defValues {
-                CType = ucph_ce_slider_content
+                CType = ucph_content_slider_content
             }
         }
     }
-    show := addToList(ucph_ce_slider_content)
+    show := addToList(ucph_content_slider_content)
 }
